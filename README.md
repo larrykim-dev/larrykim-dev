@@ -38,7 +38,7 @@ A friendly monitor for one Windows PC used as a server, running 24/7.
 <sub>Auto-updated daily from public repos · 공개 저장소에서 매일 갱신 · 2026-10-18</sub>
 <!-- recent:end -->
 
-If my work helps you, you can support it through [GitHub Sponsors](https://github.com/sponsors/larrykim-dev).
+Say hi on [LinkedIn](https://www.linkedin.com/in/larry-kim-24b76b21a) · If my work helps you, you can support it through [GitHub Sponsors](https://github.com/sponsors/larrykim-dev).
 
 ---
 
@@ -54,6 +54,6 @@ If my work helps you, you can support it through [GitHub Sponsors](https://githu
 - **[ServerPal](https://github.com/serverpal/serverpal)** — 24시간 켜 두는 Windows PC 서버를 지켜보는 프로그램.
   모니터링 · 알림 · 백업 · 위젯.
 
-도움이 됐다면 [GitHub Sponsors](https://github.com/sponsors/larrykim-dev)로 응원해 주세요. 무료 · 광고 없이 이어 가는 데 쓰여요.
+연락은 [LinkedIn](https://www.linkedin.com/in/larry-kim-24b76b21a)으로 주세요. 도움이 됐다면 [GitHub Sponsors](https://github.com/sponsors/larrykim-dev)로 응원해 주세요. 무료 · 광고 없이 이어 가는 데 쓰여요.
 
 </details>
