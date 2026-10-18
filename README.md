@@ -1,7 +1,7 @@
 ### Hi, I'm Larry Kim
 
 **I build small products end to end, on my own** — from the first idea to design, code, tests, CI and release —
-and publish them for free with the source open.
+and publish them for free — most with the source open.
 
 #### Projects
 
@@ -12,6 +12,12 @@ A fever log for parents: temperature, fever medicine and symptoms, shared with t
 - Designed around Korea's medical-device rules for software (MFDS 2025): it shows records next to the package
   label instead of calculating doses
 - CI on every push: Node test runner plus a headless-Chrome smoke test driven over the DevTools Protocol
+
+**[Suho Story 수호 스토리](https://play.google.com/store/apps/details?id=com.suhostory.game)** · [Google Play](https://play.google.com/store/apps/details?id=com.suhostory.game) · [play in the browser](https://suho-sigma.vercel.app)
+A spirit-collecting RPG with an original story, starting from Korea's eight provinces and continuing into Japan.
+- Runs in the browser on ES modules + Canvas 2D — no build tools; shipped to Google Play as an Android app
+- 18 regions · 864 maps · 199 spirits; tiles and characters drawn in code, 40 music tracks synthesized in code
+- Save codes to move a game between devices without an account
 
 **[ServerPal](https://github.com/serverpal/serverpal)** · Apache-2.0
 A friendly monitor for one Windows PC used as a server, running 24/7.
@@ -25,7 +31,7 @@ A friendly monitor for one Windows PC used as a server, running 24/7.
 - Tests and CI as part of the product, not an afterthought
 - Privacy and safety rules written down — and checked by tests
 
-**Tools** · JavaScript (ES modules, PWA) · Python · Node test runner · GitHub Actions
+**Tools** · JavaScript (ES modules, PWA, Canvas 2D) · Python · Node test runner · GitHub Actions
 
 #### Recent work
 
@@ -47,10 +53,12 @@ Say hi on [LinkedIn](https://www.linkedin.com/in/larry-kim-24b76b21a) · If my w
 
 ### 안녕하세요, Larry Kim 이에요
 
-**작은 제품을 처음부터 끝까지 혼자 만들어요** — 아이디어부터 설계 · 코드 · 시험 · CI · 배포까지 하고, 무료로 코드와 함께 공개해요.
+**작은 제품을 처음부터 끝까지 혼자 만들어요** — 아이디어부터 설계 · 코드 · 시험 · CI · 배포까지 하고, 무료로 공개해요(대부분 코드도 함께).
 
 - **[열지기](https://yeoljigi.github.io/)** — 아이가 열날 때 체온 · 해열제 · 증상을 남기고 가족과 함께 보는 웹앱.
   가입 없이, 기록은 내 휴대폰에만. 빌드 · 의존성 없는 PWA, 서버 없는 가족 공유, 식약처 디지털의료기기 기준에 맞춘 설계.
+- **[수호 스토리](https://play.google.com/store/apps/details?id=com.suhostory.game)** — 대한민국 8도에서 일본까지 이어지는 정령 수집 RPG.
+  이야기 · 인물은 모두 창작. 브라우저에서 바로([웹](https://suho-sigma.vercel.app)), Google Play 출시.
 - **[ServerPal](https://github.com/serverpal/serverpal)** — 24시간 켜 두는 Windows PC 서버를 지켜보는 프로그램.
   모니터링 · 알림 · 백업 · 위젯.
 
