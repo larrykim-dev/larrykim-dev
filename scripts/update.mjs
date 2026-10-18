@@ -38,18 +38,18 @@ for (const r of repos.slice(0, LIMIT)) {
   ]);
   const last = commits?.[0];
   const subject = last ? last.commit.message.split('\n')[0] : '';
-  const name = r.homepage ? `[${r.name}](${r.homepage}) · [코드](${r.html_url})` : `[${r.name}](${r.html_url})`;
+  const name = r.homepage ? `[${r.name}](${r.homepage}) · [code](${r.html_url})` : `[${r.name}](${r.html_url})`;
   rows.push(`| ${name} | ${cell(r.description)} | ${r.language || ''} | ${release ? `\`${release.tag_name}\`` : ''} | ${
     last ? `${day(last.commit.committer.date)} — [${cell(subject.length > 60 ? `${subject.slice(0, 59)}…` : subject)}](${last.html_url})` : ''} |`);
 }
 
 const block = ['<!-- recent:start -->',
-  '| 프로젝트 | 무엇 | 언어 | 판 | 마지막 커밋 |', '|---|---|---|---|---|', ...rows,
-  '', `<sub>공개 저장소에서 매일 저절로 갱신 · ${day(new Date().toISOString())}</sub>`, '<!-- recent:end -->'].join('\n');
+  '| Project | What | Language | Release | Last commit |', '|---|---|---|---|---|', ...rows,
+  '', `<sub>Auto-updated daily from public repos · 공개 저장소에서 매일 갱신 · ${day(new Date().toISOString())}</sub>`, '<!-- recent:end -->'].join('\n');
 
 const text = await readFile(README, 'utf8');
 const next = text.replace(/<!-- recent:start -->[\s\S]*<!-- recent:end -->/, block);
 if (next === text && !text.includes('<!-- recent:start -->')) throw new Error('README 에 <!-- recent:start --> 표시가 없어요.');
 // 날짜 줄만 바뀐 것이면 쓰지 않는다(매일 빈 커밋이 쌓이지 않게)
-const strip = (s) => s.replace(/<sub>공개 저장소에서[^<]*<\/sub>/, '');
+const strip = (s) => s.replace(/<sub>Auto-updated[^<]*<\/sub>/, '');
 if (strip(next) !== strip(text)) { await writeFile(README, next); console.log('README 갱신'); } else console.log('바뀐 것 없음');
