@@ -38,10 +38,10 @@ A friendly monitor for one Windows PC used as a server, running 24/7.
 <!-- recent:start -->
 | Project | What | Language | Release | Last commit |
 |---|---|---|---|---|
-| [yeoljigi.github.io](https://yeoljigi.github.io/) · [code](https://github.com/yeoljigi/yeoljigi.github.io) | 열지기 — 아이 열날 때 체온 · 해열제 · 증상 기록 PWA | JavaScript | `v0.9.0` | 2026-10-18 — [열지기 0.9.0 — 영어(설정 → 언어 · 자동은 브라우저 말)](https://github.com/yeoljigi/yeoljigi.github.io/commit/730fbea536e75809c62f7a058a3709ecae03a111) |
+| [yeoljigi.github.io](https://yeoljigi.github.io/) · [code](https://github.com/yeoljigi/yeoljigi.github.io) | 열지기 — 아이 열날 때 체온 · 해열제 · 증상 기록 PWA | JavaScript | `v0.9.1` | 2026-10-20 — [연기 시험 — 시작할 때 언어를 한국어로(CI 영어 Chrome 에서 기록 링크 확인이 늘 실패)](https://github.com/yeoljigi/yeoljigi.github.io/commit/c032b8f5bbe13e917fbe987aa6a065457a839447) |
 | [serverpal](https://github.com/serverpal/serverpal) | Server management for Windows PCs that run 24/7 — monitoring, alerts, backup, widget | Python | `v0.20.2` | 2026-10-17 — [ServerPal 0.20.2 — input validation, safer backups, clearer…](https://github.com/serverpal/serverpal/commit/7f268fc743dc9840661d020c89f268afd1a0bd72) |
 
-<sub>Auto-updated daily from public repos · 공개 저장소에서 매일 갱신 · 2026-10-19</sub>
+<sub>Auto-updated daily from public repos · 공개 저장소에서 매일 갱신 · 2026-10-20</sub>
 <!-- recent:end -->
 
 Say hi on [LinkedIn](https://www.linkedin.com/in/larry-kim-24b76b21a) · If my work helps you, you can support it through [GitHub Sponsors](https://github.com/sponsors/larrykim-dev).
